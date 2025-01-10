@@ -374,6 +374,10 @@ td{
     font-size: 16px;
     font-weight: bold;
 }
+.main-btn_2:hover{
+    color: black;
+    background-color: rgb(122, 210, 184);
+}
 /* subscribe section end */
 
 /* footer section start */
