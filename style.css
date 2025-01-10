@@ -1,0 +1,394 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:rgb(244, 243, 243)
+}
+
+/* Naver start */
+nav{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    align-items: center;
+}
+nav p{
+    font-size: 32px;
+    font-weight: semibold;
+}
+nav a {
+    text-decoration: none;
+    color:rgb(29, 135, 63);
+    font-size: 18px;
+    font-weight: semibold;
+    border: 1px solid rgb(29, 135, 63);
+    padding: 15px  30px ;
+    border-radius: 5px;
+}
+nav a:hover{
+    background: rgb(0,106,80,80%);
+    color: white;
+}
+/* Naver End */
+
+
+/* Banner start */
+.banner{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 80px 60px;
+    gap: 64px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+}
+.b_header{
+    font-size: 24px;
+    color: rgb(14,14,14,50%);
+}
+.b_paragraph{
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.bannerRight > button{
+    padding: 17px 34px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    background: rgb(0,106,80);
+    font-size: 18px;
+    font-weight: semibold;
+    margin-top: 24px;
+}
+.bannerRight > button:hover{
+    background: white;
+    color: black;
+}
+/* Banner end */
+
+/* Piller section start */
+.pillerSection{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.pillerSection > h1{
+    margin-bottom: 32px;
+}
+.pillerCarts{
+    display: flex;
+    gap: 24px;
+}
+.pillerCart{
+    border-radius: 16px;
+    padding: 24px;
+    width: 230px;
+    background-color: white;
+}
+.pillerCart > h4{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: rgb(14,14,14,80%);
+}
+.pillerCart > p{
+    font-size: 16px;
+    color: rgb(14,14,14,70%);
+}
+/* Piller section end */
+
+/* Vision section start */
+
+.visionSection{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.visionSection > h1{
+    margin-bottom: 32px;
+}
+.visionSection > p{
+    font-size: 16px;
+    color: rgb(14,14,14,70%);
+    margin-bottom: 32px;
+}
+.visionCarts{
+    display: flex;
+    gap: 24px;
+}
+.visionCart{
+    border-radius: 16px;
+    padding: 24px;
+    width: 330px;
+}
+.visionCart > h4{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: rgb(14,14,14,80%);
+}
+.visionCart > p{
+    font-size: 16px;
+    color: rgb(14,14,14,70%);
+    margin-bottom: 24px;
+}
+.visionCart > a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: semibold;
+    padding: 11px 20px;
+    border-radius: 8px;
+    
+}
+.visionCart > a:hover{
+    background-color: white;
+    color: black;
+}
+.visionCart_1{
+    background-color: rgb(84, 144, 245,20%);
+}
+.visionCart_1 > a{
+    background-color: rgb(84,144,245);
+}
+.visionCart_2{
+    background-color: rgb(198, 228, 214);
+}
+.visionCart_2 > a{
+    background-color: rgb(9,161,92);
+}
+.visionCart_3{
+    background-color: rgb(247, 235, 207);
+}
+.visionCart_3 > a{
+    background-color: rgb(255,194,57);
+}
+/* Vision section end */
+
+/* chiefAdiser section start */
+.chiefAdiser{
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 25px 24px;
+    margin-top: 32px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 48px 24px;
+}
+.chiefAdiser > h4{
+    margin-top: 12px;
+    color: rgb(14,14,14,70%);
+    margin-bottom: 4px;
+}
+.chiefAdiser > p{
+    font-size: 16px;
+    color: rgb(14,14,14,70%);
+}
+/* chiefAdiser section end */
+
+
+/* table */
+/* .opinion{
+    background-color:white;
+    border-radius: 16px;
+    padding: 32px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    border: 1px solid #898989;
+    padding: 20px;
+}
+
+td{
+    border: 1px solid #898989;
+    padding: 20px;
+}
+
+.tableHeader{
+    margin-left: auto ;
+    color: red;
+} */
+
+/* news section start*/
+.newsSection{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.newsSection >p{
+    font-size: 16px;
+    color: rgb(14,14,14,70%);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.newsDiv{
+    display: flex;
+    gap: 32px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+    align-items: center;
+}
+.satelite_img{
+    border-radius: 24px;
+}
+.newsDiv_2 > h2{
+    color: rgb(14,14,14,80%);
+}
+.newsDiv_2 > img{
+    margin: 12px 0px ;
+}
+.newsDiv_2 > p{
+    margin: 12px 0px ;
+    color: rgb(14,14,14,80%);
+    margin-bottom: 32px;
+}
+.newsDiv_2 > span{
+    color: rgb(14,14,14,80%);
+}
+.main-btn{
+    background-color: rgb(0,106,80);
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.main-btn:hover{
+    color: black;
+    background-color: rgb(122, 210, 184);
+}
+.newsDiv_3{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+    align-items: center;
+    margin-top: 24px;
+}
+/* news section end*/
+
+
+/* donateSection start */
+.donateSection{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 0px 100px;
+    text-align: center;
+}
+.donateSection > p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: rgb(14,14,14,80%);
+}
+.donate_tk{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.donate_tk > div{
+    padding: 40px;
+    border: 1px solid rgb(209, 212, 214);
+    border-radius: 16px;
+}
+.donate_tk > div:hover{
+    background-color: rgb(34, 163, 102);
+}
+.taka{
+   background-color: rgb(198,228,214);
+}
+.donate_tk > div > p{
+    font-size: 40px;
+    font-weight: bold;
+}
+.input_fild{
+    width: 80%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 20px;
+    margin: 32px 0px;
+}
+/* donateSection end */
+
+/* subscribe section start */
+.subscribeSection{
+    width: 1200px;
+    margin: 0 auto;  
+}
+.subscribe{
+    padding: 84px;
+    text-align: center;
+    margin-top: 84px;
+    background-color: rgb(198,228,214);
+    border-radius: 16px;
+}
+.subscribe > p{
+    color: rgb(14,14,14,80%);
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+.subscribe > span{
+    color: rgb(14,14,14,80%);
+    padding-top: 24px;
+    padding-bottom: 84px;
+}
+
+.input_fild_2{
+    width: 80%;
+    padding: 12px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    margin-bottom: 16px;
+    text-align: start;
+    font-size: 15px;
+    outline: none;
+}
+.main-btn_2{
+    background-color: rgb(0,106,80);
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: -3px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* subscribe section end */
+
+/* footer section start */
+footer{
+    width: 1200px;
+    margin: 0 auto; 
+    text-align: center;
+    margin-top: 80px;
+}
+footer > h1{
+    margin-bottom: 32px;
+}
+
+footer > div > img{
+    margin: 20px 0px;
+    margin-right: 16px;
+}
+/* footer section end*/
